@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+button, input {
+  outline: 0;
+}
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header#main-header {
+  background-color: #4A90E2;
+  height: 50px;
+  padding: 0;
+}
+
+header#main-header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header#main-header .content div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header#main-header .content span {
+  color: #FFF;
+  font-weight: bold;
+}
+
+header#main-header .content i {
+  color: #FFF;
+  margin-left: 10px;
+}
+
+.postlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.post {
+  background-color: #FFF;
+  max-width: 600px;
+  width: 100%;
+  padding: 22px;
+  margin: 22px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header img {
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.post-header .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.post-header .details span.author {
+  color: #444;
+  font-weight: bold;
+}
+
+.post-header .details span.date {
+  color: #777;
+  font-size: 13px;
+}
+
+.post .post-comments .comment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #F2F2F2;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.post .post-comments .comment img {
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.post .post-comments .comment p {
+  color: #444;
+  font-size: 14px;
+}
+
+.post .post-comments .comment p span {
+  margin-right: 6px;
+  color: #444;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.post .post-content {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  color: #444;
+  font-size: 14px;
+}
